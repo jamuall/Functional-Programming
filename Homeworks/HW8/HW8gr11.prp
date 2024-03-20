@@ -1,0 +1,12 @@
+Version: 1.5
+MainModule
+	Name:	HW8gr11
+	Dir:	{Project}
+	DclOpen:	False
+	Icl
+		WindowPosition
+			X:	10
+			Y:	10
+			SizeX:	1071
+			SizeY:	666
+	IclOpen:	True

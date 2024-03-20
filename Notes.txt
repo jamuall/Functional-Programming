@@ -1,0 +1,27 @@
+1)st :: String String String -> String
+st a b c = a +++ b +++ c
+
+//Start = st "Hello" " World!" " form FP class"
+
+This is string concatination.
+
+2) abort "Hello"
+prints string
+
+3) sqrt -> square root
+works with real number and result is real number
+so you need to use toReal x for using sqrt
+
+4) x ^ 2, power function, works with real and integer numbers
+
+5) Characters, ASCII table
+65 <= c <= 90 : upper case
+97 <= c <= 122 : lower case
+the rest is not letter !!
+
+6) 10 rem 2 // 0
+rem function is remainder (%)
+works with integers only
+
+7) gcd - greatest common divisor , integer
+   lcm - Least common multiple , integer

@@ -1,0 +1,12 @@
+Version: 1.5
+MainModule
+	Name:	ex1
+	Dir:	{Project}
+	DclOpen:	False
+	Icl
+		WindowPosition
+			X:	100
+			Y:	-12
+			SizeX:	800
+			SizeY:	640
+	IclOpen:	True

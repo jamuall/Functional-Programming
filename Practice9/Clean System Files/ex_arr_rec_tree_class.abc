@@ -1,0 +1,257 @@
+.comp 920 000111010010000
+.start __ex_arr_rec_tree_class_Start
+.depend "_SystemEnumStrict" "20231109201026"
+.depend "_SystemStrictLists" "20231109201026"
+.depend "StdStrictLists" "20231109201026"
+.depend "_SystemEnum" "20231109201027"
+.depend "StdEnum" "20231109201027"
+.depend "StdMisc" "20231109201026"
+.depend "StdFunctions" "20231109201027"
+.depend "StdCharList" "20231109201026"
+.depend "StdTuple" "20231109201027"
+.depend "StdOrdList" "20231109201027"
+.depend "StdList" "20231109201026"
+.depend "StdClass" "20231109201027"
+.depend "StdFile" "20231109201026"
+.depend "StdString" "20231109201026"
+.depend "_SystemArray" "20231109201026"
+.depend "StdArray" "20231109201026"
+.depend "StdChar" "20231109201027"
+.depend "StdReal" "20231109201027"
+.depend "StdInt" "20231109201026"
+.depend "StdOverloaded" "20231109201026"
+.depend "StdBool" "20231109201027"
+.depend "StdEnv" "20231109201026"
+.module m_ex_arr_rec_tree_class "ex_arr_rec_tree_class" "20231203175750"
+.endinfo
+.impmod _system
+.implab _cycle_in_spine
+.implab _type_error
+.implab _hnf
+.impdesc e_system_dind
+.implab e_system_nind e_system_eaind
+.impdesc e_system_dif
+.implab e_system_nif e_system_eaif
+.implab e_system_sif
+.impdesc e_system_dAP
+.implab e_system_nAP e_system_eaAP
+.implab e_system_sAP
+.impdesc ARRAY
+.impdesc _Nil
+.impdesc _Cons
+.impdesc _Conss
+.implab n_Conss ea_Conss
+.impdesc _Consts
+.implab n_Consts ea_Consts
+.impdesc _Conssts
+.implab n_Conssts ea_Conssts
+.impdesc _Tuple
+.impdesc d_S.1
+.implab n_S.1 ea_S.1
+.impdesc d_S.2
+.implab n_S.2 ea_S.2
+.impdesc d_S.3
+.implab n_S.3 ea_S.3
+.impdesc d_S.4
+.implab n_S.4 ea_S.4
+.impdesc d_S.5
+.implab n_S.5 ea_S.5
+.impdesc d_S.6
+.implab n_S.6 ea_S.6
+.implab _driver
+.impmod StdString
+.impdesc e_StdString_d+++;11
+.implab e_StdString_n+++;11
+.impmod StdInt
+.implab e_StdInt_s-;7
+.implab e_StdInt_s<;17
+.impmod StdBool
+.implab e_StdBool_snot
+.desc0 d9 0 "Mon"
+.desc0 d10 1 "Tue"
+.desc0 d11 2 "Wed"
+.desc0 d12 3 "Thu"
+.desc0 d13 4 "Fri"
+.desc0 d14 5 "Sat"
+.desc0 d15 6 "Sun"
+.desc d17 _hnf _add_arg 1 0 "Circle"
+.desc d18 _hnf _add_arg 1 0 "Square"
+.desc d19 _hnf _add_arg 1 0 "Triangle"
+.desc d20 _hnf _add_arg 2 0 "Rectangle"
+.desc d26 _hnf _add_arg 3 0 "Node"
+.desc d27 _hnf _hnf 0 0 "Leaf"
+.record r28 aa 2 0 "Person"
+.descs d29 n29 _ 1 0 "Person.name"
+.n -4 d29
+.o 1 0
+n29
+	push_node _cycle_in_spine 1
+	jsr_eval 0
+	repl_r_args_a 2 0 1 1
+	jsr_eval 0
+	fill_a 0 1
+	pop_a 1
+.d 1 0
+	rtn
+.desc d32 _hnf _add_arg 3 0 "BSTNode"
+.desc d33 _hnf _hnf 0 0 "BSTLeaf"
+.export __ex_arr_rec_tree_class_Start
+.o 0 0
+__ex_arr_rec_tree_class_Start
+	build _ 0 n5
+.d 1 0
+	jmp _driver
+.n 0 _ ea5
+.o 1 0
+n5
+	push_node _cycle_in_spine 0
+.o 1 0
+ea5
+.o 1 0
+s5
+	create
+.d 1 0
+	jsr s1
+.o 1 0
+.d 2 0
+	jmp s4
+.o 1 0
+s1
+	buildh d27 0
+	buildh d27 0
+	buildI 23
+	buildI 11
+	buildI 2005
+	buildh _Tuple 3
+	buildAC "ht"
+	buildh ARRAY 1
+	buildhr r28 2 0
+	buildh d26 3
+	buildh d27 0
+	buildh d27 0
+	buildI 22
+	buildI 11
+	buildI 1998
+	buildh _Tuple 3
+	buildAC "hh"
+	buildh ARRAY 1
+	buildhr r28 2 0
+	buildh d26 3
+	buildh d27 0
+	buildh d27 0
+	buildI 22
+	buildI 11
+	buildI 2003
+	buildh _Tuple 3
+	buildAC "hh"
+	buildh ARRAY 1
+	buildhr r28 2 0
+	buildh d26 3
+	buildI 21
+	buildI 11
+	buildI 2001
+	buildh _Tuple 3
+	buildAC "hr"
+	buildh ARRAY 1
+	buildhr r28 2 0
+	buildh d26 3
+	buildI 22
+	buildI 11
+	buildI 1999
+	buildh _Tuple 3
+	buildAC "hh"
+	buildh ARRAY 1
+	buildhr r28 2 0
+	fillh d26 3 3
+.d 1 0
+	rtn
+.n 1 _ ea4
+.o 1 0
+n4
+	push_node _cycle_in_spine 1
+.o 2 0
+ea4
+	jsr_eval 0
+.o 2 0
+s4
+	eq_desc d27 0 0
+	jmp_true case.1
+	jmp case.2
+case.1
+	fillh d27 0 1
+	pop_a 1
+.d 1 0
+	rtn
+case.2
+	repl_args 3 3
+	push_a 2
+	build _ 1 n4
+	push_a 2
+	build _ 1 n4
+	push_a 2
+	build _ 1 n3
+	fillh d26 3 6
+	pop_a 3
+.d 1 0
+	rtn
+.n 1 _
+.o 1 0
+n3
+	push_node _cycle_in_spine 1
+.d 1 0
+	jsr ea3
+.o 2 0
+	fill_r r28 2 0 2 0 0
+	pop_a 2
+.d 1 0
+	rtn
+.o 1 0
+ea3
+	jsr_eval 0
+	repl_r_args 2 0
+.o 2 0
+s3
+	push_a 1
+	jsr_eval 0
+	repl_args 3 3
+	jsr_eval 0
+	pushI_a 0
+	pop_a 1
+.d 2 1 i
+	jsr s2
+.o 0 1 b
+	jmp_false else.3
+	push_a 0
+	buildAC "_over18"
+	buildh ARRAY 1
+	push_a 1
+	update_a 1 2
+	update_a 0 1
+	pop_a 1
+	build _ 2 e_StdString_n+++;11
+	push_a 2
+	push_a 2
+	update_a 2 0
+	update_a 1 4
+	updatepop_a 0 3
+.d 2 0
+	rtn
+else.3
+.d 2 0
+	rtn
+.o 2 1 i
+s2
+	push_b 0
+	pushI 2023
+	subI
+	pushI 18
+	push_b 1
+	update_b 1 2
+	update_b 0 1
+	pop_b 1
+	ltI
+	updatepop_b 0 1
+	pop_a 2
+	notB
+.d 0 1 b
+	rtn
